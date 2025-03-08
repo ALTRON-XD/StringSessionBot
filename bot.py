@@ -25,7 +25,7 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    uname = app.me.username
+    uname = "lisztomanic_string_bot"
     logging.info(f"@{uname} is now running!")
     idle()
     app.stop()
